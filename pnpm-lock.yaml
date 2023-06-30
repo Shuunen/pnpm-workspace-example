@@ -1,0 +1,31 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  project-a:
+    dependencies:
+      left-pad:
+        specifier: ^1.2.0
+        version: 1.2.0
+
+  project-b:
+    dependencies:
+      core-js:
+        specifier: 3.27.0
+        version: 3.27.0
+
+packages:
+
+  /core-js@3.27.0:
+    resolution: {integrity: sha512-wY6cKosevs430KRkHUIsvepDXHGjlXOZO3hYXNyqpD6JvB0X28aXyv0t1Y1vZMwE7SoKmtfa6IASHCPN52FwBQ==}
+    requiresBuild: true
+    dev: false
+
+  /left-pad@1.2.0:
+    resolution: {integrity: sha512-OQadpCyFCT/VLniZQgym8d3/ofIJtuZyw2ibsVeIUOexKgW/osn8+mMFJbwGMPeDC4GnLzD8q115WPCDx4YRWg==}
+    deprecated: use String.prototype.padStart()
+    dev: false
