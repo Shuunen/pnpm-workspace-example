@@ -6,6 +6,15 @@ settings:
 
 importers:
 
+  .:
+    dependencies:
+      project-a:
+        specifier: ./project-a
+        version: link:project-a
+      project-b:
+        specifier: ./project-b
+        version: link:project-b
+
   project-a:
     dependencies:
       left-pad:
@@ -15,7 +24,7 @@ importers:
   project-b:
     dependencies:
       core-js:
-        specifier: 3.27.0
+        specifier: ^3.27.0
         version: 3.27.0
 
 packages:

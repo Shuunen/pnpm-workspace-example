@@ -1,0 +1,24 @@
+{
+  "name": "pnpm-workspace-example2",
+  "version": "1.0.0",
+  "description": "Test Test Test",
+  "main": "index.js",
+  "dependencies": {
+    "project-a" : "./project-a",
+    "project-b" : "./project-b"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucasHillDex/pnpm-workspace-example2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LucasHillDex/pnpm-workspace-example2/issues"
+  },
+  "homepage": "https://github.com/LucasHillDex/pnpm-workspace-example2#readme"
+}
