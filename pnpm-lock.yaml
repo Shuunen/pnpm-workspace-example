@@ -1,4 +1,4 @@
-lockfileVersion: '6.0'
+lockfileVersion: '9.0'
 
 settings:
   autoInstallPeers: true
@@ -24,17 +24,20 @@ importers:
   project-b:
     dependencies:
       core-js:
-        specifier: ^3.27.0
-        version: 3.27.0
+        specifier: ^3.38.1
+        version: 3.38.1
 
 packages:
 
-  /core-js@3.27.0:
-    resolution: {integrity: sha512-wY6cKosevs430KRkHUIsvepDXHGjlXOZO3hYXNyqpD6JvB0X28aXyv0t1Y1vZMwE7SoKmtfa6IASHCPN52FwBQ==}
-    requiresBuild: true
-    dev: false
+  core-js@3.38.1:
+    resolution: {integrity: sha512-OP35aUorbU3Zvlx7pjsFdu1rGNnD4pgw/CWoYzRY3t2EzoVT7shKHY1dlAy3f41cGIO7ZDPQimhGFTlEYkG/Hw==}
 
-  /left-pad@1.2.0:
+  left-pad@1.2.0:
     resolution: {integrity: sha512-OQadpCyFCT/VLniZQgym8d3/ofIJtuZyw2ibsVeIUOexKgW/osn8+mMFJbwGMPeDC4GnLzD8q115WPCDx4YRWg==}
     deprecated: use String.prototype.padStart()
-    dev: false
+
+snapshots:
+
+  core-js@3.38.1: {}
+
+  left-pad@1.2.0: {}
